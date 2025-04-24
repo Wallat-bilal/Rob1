@@ -1,0 +1,10 @@
+<launch>
+    <include file="$(find turtlebot_bringup)/launch/minimal.launch" />
+    ros::duration(2.0).sleep();
+    <include file="$(find turtlebot_navigation)/launch/gmapping_demo.launch" />
+    ros::duration(2.0).sleep();
+    <include file="$(find turtlebot_rviz_launchers)/launch/view_navigation.launch" />
+    ros::duration(2.0).sleep();
+    <include file="$(find controller)/launch/controller.launch" />
+    ros::duration(2.0).sleep();
+</launch>
