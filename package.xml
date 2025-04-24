@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>demining</name>
+  <version>0.0.0</version>
+  <description>The demining package</description>
+
+  <maintainer email="mfrier20@student.aau.dk">Mads Frier</maintainer>
+
+  <license>MIT</license>
+
+  <author email="mfrier20@student.aau.dk">Mads Frier</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+<depend>roscpp</depend>
+
+  <export>
+
+  </export>
+</package>
